@@ -1,0 +1,80 @@
+// .page_404 {
+//     padding: 40px 0;
+//     background: #fff;
+//     font-family: "Arvo", serif;
+// }
+
+// .page_404 img {
+//     width: 100%;
+// }
+
+// .four_zero_four_bg {
+//     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+//     height: 400px;
+//     background-position: center;
+//     background-repeat: no-repeat;
+// }
+
+// .four_zero_four_bg h1 {
+//     font-size: 80px;
+// }
+
+// .four_zero_four_bg h3 {
+//     font-size: 80px;
+// }
+
+// .link_404 {
+//     color: #fff !important;
+//     padding: 10px 20px;
+//     background: #39ac31;
+//     margin: 20px 0;
+//     display: inline-block;
+// }
+
+// .contant_box_404 {
+//     margin-top: -50px;
+// }
+
+.header {
+    padding: 25px 0;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .tesla-title {
+    font-family: 'RobotoNormal';
+    font-weight: 100;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
+  
+  .tesla-car {
+    width: 100%;
+    min-height: 350px;
+    background: #ffffff url(https://github.com/gyver98/blog-images/blob/master/tesla.png?raw=true) no-repeat top center;
+    background-size: contain; 
+  }
+  
+  .animate-pop-in {
+    animation: pop-in 5s cubic-bezier(.19,.79,.78,.39) forwards;
+  }
+  
+  
+  
+  @keyframes pop-in {
+    
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  

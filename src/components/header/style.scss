@@ -1,0 +1,31 @@
+.activeHome{
+    border-radius: 85px;
+    border: 2px solid var(--1, #0081FF);
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: #0081FF !important;
+}
+
+.activeModel3{
+    border-radius: 85px;
+    border: 2px solid var(--2, #F10221);
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: #F10221 !important;
+}
+
+.activeModelx{
+    border-radius: 85px;
+    border: 2px solid #FFF;
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: white !important;
+}
+
+.activeModely{
+    border-radius: 85px;
+    border: 2px solid #707070;
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: white !important;
+}
